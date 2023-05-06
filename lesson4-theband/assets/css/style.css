@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    scroll-behavior: smooth;
+}
+
+.header {
+    height: 46px;
+    background-color: black;
+    position: fixed;
+    width: 100%;
+}
+
+.nav {
+    display: inline-block;
+}
+
+.nav li {
+    display: inline-block;
+}
+
+.nav li a {
+    display: inline-block;
+    color: white;
+    /* in hoa */
+    text-transform: uppercase;
+    /* bỏ hiệu ứng của chữ */
+    text-decoration: none;
+    padding: 0px 24px;
+    line-height: 46px;
+}
+
+.nav li a:hover {
+    background-color: hotpink;
+    color: black;
+}
+
+.search {
+    display: inline-block;
+    color: white;
+    float: right;
+    line-height: 46px;
+    padding: 0px 20px;
+    font-size: 20px;
+}
+
+.search:hover {
+    background-color: tomato;
+    cursor: pointer;
+}
+
+.slider {
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    padding: 60px;
+}
+
+.section-content {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 64px 0px;
+}
+
+.center {
+    text-align: center;
+}
+
+.section-heading {
+    text-align: center;
+    padding-bottom: 20px;
+    letter-spacing: 4px;
+}
+
+.sub-heading {
+    text-align: center;
+    padding-bottom: 20px;
+    font-style: italic;
+    opacity: 0.5;
+}
+
+.text {
+    text-align: justify;
+    line-height: 1.4;
+}
+
+.input {
+    border: none;
+    border-bottom: 1px solid gray;
+    display: block;
+    padding: 8px;
+    width: 100%;
+}
+
+.members-list {
+    display: flex;
+    justify-content: space-around;
+    padding: 60px 0px;
+}
+
+.members-name {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.members-img {
+    border-radius: 10px;
+}
+
+.w3-black {
+    color: #fff;
+    background-color: #000;
+}
+
+.w3-button {
+    border: none;
+    display: inline-block;
+    padding: 8px 16px;
+    vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none;
+    color: inherit;
+    background-color: inherit;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap;
+}
+
+.w3-button:hover, .w3-black:hover {
+    color: #000;
+    background-color: rgb(184, 178, 178);
+}
+
+.container-map{
+    width: 100%;
+}
+.footer {
+
+}

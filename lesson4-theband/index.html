@@ -1,0 +1,108 @@
+<!-- phân tích:
+1:header
++   nav
++   tìm kiếm
+2: slider( 3 hình)
+3: container
++ the band
++contact
+4:footer -->
+
+<!-- từ ngoài vào trong ( làm cái box)
+làm từ trên xuống dưới 
+làm tới chi tiết -->
+
+<!--vị trí
+    nội dung -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Band</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://www.w3schools.com/lib/w3.js"></script>
+</head>
+
+<body>
+    <div class="header">
+        <!-- begin nav -->
+        <ul class="nav">
+            <li><a href="#Home">Home</a></li>
+            <li><a href="#Band">band</a></li>
+            <li><a href="#Members">members</a></li>
+            <li><a href="#Contact">contact</a></li>
+        </ul>
+        <!-- end nav -->
+        <div class="search">
+            <i class="fa fa-search"></i>
+        </div>
+    </div>
+
+    <div class="slider" id="Home">
+        <img src="./assets/image/img_ch.jpg" alt="" class="slides">
+        <img src="./assets/image/img_la.jpg" alt="" class="slides">
+        <img src="./assets/image/img_ny.jpg" alt="" class="slides">
+
+        <script>
+            w3.slideshow(".slides", 1500)
+        </script>
+    </div>
+
+    <div class="container">
+        <div class="section-content" id="Band">
+            <h2 class="section-heading">THE BAND</h2>
+            <p class="sub-heading">We love music</p>
+            <p class="text">We have created a fictional band website. Lorem ipsum dolor sit amet, consectetur adipiscing
+                elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+                nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+                reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+                cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur
+                adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+                veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+
+            <div class="members-list" id="Members">
+                <div class="members-item">
+                    <p class="members-name">Name</p>
+                    <img src="./assets/image/img_bandmember.jpg" alt="" class="members-img">
+                </div>
+                <div class="members-item">
+                    <p class="members-name">Name</p>
+                    <img src="./assets/image/img_bandmember.jpg" alt="" class="members-img">
+                </div>
+                <div class="members-item">
+                    <p class="members-name">Name</p>
+                    <img src="./assets/image/img_bandmember.jpg" alt="" class="members-img">
+                </div>
+            </div>
+        </div>
+
+        <div class="section-content center">
+            <h2 class="section-heading" id="Contact">CONTACT</h2>
+            <p>Chicago, US</p>
+            <p>Phone: +01 0000000</p>
+            <p>Mail: email@email</p>
+            <p class="sub-heading">Fan? Drop a note!</p>
+
+            <form action="/action_page.php" target="_blank">
+                <input type="text" class="input" placeholder="Name" required name="Name">
+                <input type="text" class="input" placeholder="Email" required name="Email">
+                <input type="text" class="input" placeholder="Message" required name="Message"><br>
+                <button class="w3-button w3-black" type="submit">SEND</button>
+            </form>
+        </div>
+        <img class="container-map" src="./assets/image/map.jpg" alt="">
+
+    </div>
+
+    <div class="footer">
+
+    </div>
+
+</body>
+
+</html>
